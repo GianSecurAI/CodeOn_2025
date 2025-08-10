@@ -1,0 +1,603 @@
+/* Estilos para el carrusel de speakers - Versión actualizada */
+.speakers-section {
+  padding: 50px 0;
+  background-color: #0F1623;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+  .speakers-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  }.speakers-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+}
+
+/* Encabezados y títulos */
+.speakers-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.speakers-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  transform: none;
+  background: linear-gradient(90deg, #FF7A00, rgba(255, 122, 0, 0.1));
+  border-radius: 2px;
+}
+
+/* Contenedor principal del carrusel */
+.speakers-carousel-container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 0 60px;
+  overflow: hidden;
+}
+
+/* Estructura del carrusel */
+.speakers-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+  overflow: visible;
+}
+
+/* Carrusel principal */
+.speakers-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0;
+}
+
+/* Track que contiene todas las tarjetas */
+.speakers-track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  margin: 0 -15px; /* Compensar el gap entre tarjetas */
+}
+
+/* Tarjeta de cada speaker - Diseño mejorado */
+.speaker-card {
+  flex: 0 0 calc(100% / 3 - 30px); /* Mostrar 3 tarjetas en desktop */
+  margin: 0 15px;
+  background: rgba(15, 23, 42, 0.8);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  height: 370px; /* Altura fija para uniformidad */
+  position: relative;
+}
+
+.speaker-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(255, 122, 0, 0.15);
+  border-color: rgba(255, 122, 0, 0.3);
+  background: rgba(20, 30, 50, 0.9);
+}
+
+.speaker-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #FF7A00, #FFA800);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.speaker-card:hover::before {
+  opacity: 1;
+}
+
+/* Contenedor de imagen y elementos superpuestos */
+.speaker-image-container {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+/* Imagen del speaker - estilo mejorado */
+.speaker-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 5px auto 18px;
+  position: relative;
+  border: 3px solid transparent;
+  background: linear-gradient(145deg, rgba(15, 22, 35, 0.6), rgba(25, 35, 55, 0.8));
+  padding: 3px;
+  transition: all 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.speaker-image::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #FF7A00, rgba(255, 122, 0, 0.2), #FF7A00);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.speaker-card:hover .speaker-image::before {
+  opacity: 1;
+}
+
+.speaker-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+  border-radius: 50%;
+  filter: brightness(1.05) contrast(1.05);
+}
+
+.speaker-card:hover .speaker-image img {
+  transform: scale(1.05);
+}
+
+/* Iconos sociales */
+.speaker-social {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.speaker-card:hover .speaker-social {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.linkedin-icon {
+  color: #0077B5;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.15);
+  color: #FF7A00;
+  background: white;
+  box-shadow: 0 2px 10px rgba(255, 122, 0, 0.3);
+}
+
+/* Información del speaker - diseño mejorado */
+.speaker-info {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.speaker-info h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.speaker-card:hover .speaker-info h3 {
+  color: #FF7A00;
+}
+
+.speaker-role {
+  margin: 0 0 10px 0;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #FF7A00;
+  opacity: 0.9;
+}
+
+/* Se eliminaron los estilos de los logos de empresas */
+
+/* Bio del speaker */
+.speaker-bio {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+  margin: 5px 0 0;
+  max-height: 4.5em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding: 0 10px;
+}
+
+/* Controles del carrusel - más grandes y llamativos */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 122, 0, 0.85);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-control:hover {
+  background: #FF7A00;
+  box-shadow: 0 0 20px rgba(255, 122, 0, 0.6);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-control:active {
+  transform: translateY(-50%) scale(0.95);
+  background: #e06900;
+}
+
+.carousel-control.prev {
+  left: 5px;
+}
+
+.carousel-control.next {
+  right: 5px;
+}
+
+.carousel-control svg {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+  stroke-width: 2.5;
+}
+
+.carousel-control.prev:hover svg {
+  transform: translateX(-3px);
+}
+
+.carousel-control.next:hover svg {
+  transform: translateX(3px);
+}
+
+/* Responsive para tablet */
+@media (max-width: 992px) {
+  .speaker-card {
+    flex: 0 0 calc(50% - 30px);
+    height: 400px;
+  }
+  
+  .speaker-image {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .carousel-control.prev {
+    left: 5px;
+  }
+  
+  .carousel-control.next {
+    right: 5px;
+  }
+  
+  .speakers-heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .speaker-info h3 {
+    font-size: 1.3rem;
+  }
+  
+  .speaker-bio {
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    max-height: 3em;
+  }
+}
+
+/* Responsive para móvil */
+@media (max-width: 768px) {
+  .speakers-track {
+    display: flex;
+    gap: 0;
+  }
+
+  .speaker-card {
+    flex: 0 0 100%;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    min-height: 350px;
+    margin: 0;
+  }
+  
+  .speaker-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .speaker-info h3 {
+    font-size: 1.2rem;
+  }
+  
+  .speakers-heading {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  .carousel-control {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel-control.prev {
+    left: 5px;
+  }
+
+  .carousel-control.next {
+    right: 5px;
+  }
+  
+  .speaker-role {
+    font-size: 0.9rem;
+  }
+
+  .speaker-social {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    top: auto;
+  }
+}
+
+/* Pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .speakers-section {
+    padding: 30px 0;
+  }
+
+  /* Deshabilitar efectos hover y before en móvil */
+  .speaker-card::before,
+  .speaker-image::before,
+  .speaker-card:hover::before,
+  .speaker-card:hover .speaker-image::before {
+    display: none;
+  }
+
+  .speakers-container {
+    padding: 0;
+  }
+
+  .speakers-carousel-container {
+    width: 100%;
+    padding: 0 0 40px;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .speakers-carousel-wrapper {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .speakers-carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .speakers-track {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .speakers-track {
+    margin: 0;
+    gap: 0;
+  }
+
+  .speakers-heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    padding: 0 20px;
+  }
+
+  .speakers-heading::after {
+    bottom: -10px;
+    height: 3px;
+    width: 60px;
+  }
+
+  /* Ajustes a las tarjetas */
+  .speaker-card {
+    margin: 0;
+    padding: 12px;
+    height: auto;
+    min-height: 240px;
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid rgba(255, 122, 0, 0.15);
+    flex: 0 0 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .speaker-image-container {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+  }
+
+  .speaker-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 12px;
+    border: 2px solid rgba(255, 122, 0, 0.2);
+  }
+
+  .speaker-image img {
+    border: 2px solid transparent;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .speaker-card:hover .speaker-image img {
+    transform: scale(1.05);
+    border-color: rgba(255, 122, 0, 0.4);
+  }
+
+  .speaker-info {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .speaker-info h3 {
+    font-size: 1.2rem;
+    margin: 0 0 4px 0;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
+  .speaker-role {
+    font-size: 0.95rem;
+    margin: 0 0 8px 0;
+    padding: 0;
+    color: #FF7A00;
+    font-weight: 500;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .speaker-bio {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    text-align: center;
+    max-width: 280px;
+  }
+
+  /* Ajustes a los controles del carrusel */
+  .carousel-control {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    background: rgba(255, 122, 0, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-control.prev {
+    left: 5px;
+  }
+
+  .carousel-control.next {
+    right: 5px;
+  }
+
+  .carousel-control svg {
+    width: 22px;
+    height: 22px;
+    stroke-width: 2.5;
+  }
+
+  .carousel-control:active {
+    transform: translateY(-50%) scale(0.95);
+  }
+
+  /* Ajustes a los íconos sociales */
+  .speaker-social {
+    position: absolute;
+    top: auto;
+    bottom: 12px;
+    right: 12px;
+    gap: 8px;
+    opacity: 1;
+    transform: none;
+  }
+
+  .linkedin-icon {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+}

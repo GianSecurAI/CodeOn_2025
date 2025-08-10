@@ -1,0 +1,91 @@
+/* Estilos responsivos específicos para móviles en la sección de speakers */
+@media screen and (max-width: 480px) {
+  .featured-speakers {
+    padding: 40px 0;
+  }
+
+  .featured-speakers .speakers-heading {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+
+  .speakers-section {
+    padding: 30px 0;
+  }
+
+  .speakers-container {
+    padding: 0 12px;
+  }
+
+  .speakers-carousel-container {
+    width: 100%;
+    padding: 0 0 40px;
+  }
+
+  .speakers-carousel-wrapper {
+    padding: 0 10px;
+  }
+
+  .speaker-card {
+    margin: 0 8px;
+    padding: 15px;
+    height: auto;
+    min-height: 320px;
+  }
+
+  .speaker-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+  }
+
+  .speaker-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+
+  .speaker-role {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    padding: 0 5px;
+  }
+
+  .speaker-bio {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    padding: 0 8px;
+    margin-top: 8px;
+    -webkit-line-clamp: 3;
+  }
+
+  .carousel-control {
+    width: 35px;
+    height: 35px;
+    opacity: 0.9;
+  }
+
+  .carousel-control.prev {
+    left: 2px;
+  }
+
+  .carousel-control.next {
+    right: 2px;
+  }
+
+  .carousel-control svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .speaker-social {
+    top: 8px;
+    right: 8px;
+    gap: 6px;
+  }
+
+  .linkedin-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
