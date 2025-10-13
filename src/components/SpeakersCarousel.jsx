@@ -31,13 +31,31 @@ const SpeakersCarousel = () => {
   };
 
   const [slidesToShow, setSlidesToShow] = useState(getVisibleSlidesCount());
+  const [imagesLoaded, setImagesLoaded] = useState(false);
 
-  // Precargar todas las imágenes al montar el componente
+  // Precargar todas las imágenes al montar el componente con prioridad alta
   useEffect(() => {
-    speakerData.forEach((speaker) => {
-      const img = new Image();
-      img.src = speakerImages[speaker.image];
-    });
+    const preloadImages = async () => {
+      const imagePromises = speakerData.map((speaker) => {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.onload = resolve;
+          img.onerror = reject;
+          img.fetchPriority = 'high';
+          img.src = speakerImages[speaker.image];
+        });
+      });
+
+      try {
+        await Promise.all(imagePromises);
+        setImagesLoaded(true);
+      } catch (error) {
+        console.error('Error precargando imágenes:', error);
+        setImagesLoaded(true); // Continuar aunque haya errores
+      }
+    };
+
+    preloadImages();
   }, []);
 
   // Actualizar slidesToShow cuando cambia el tamaño de la ventana
@@ -50,14 +68,14 @@ const SpeakersCarousel = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Autoplay con pausa al interactuar
+  // Autoplay con pausa al interactuar - velocidad optimizada
   useEffect(() => {
     let interval;
     
     if (autoplay && !isAnimating) {
       interval = setInterval(() => {
         moveToNextSlide();
-      }, 1000); // Cambio cada 1 segundo
+      }, 3000); // Cambio cada 3 segundos para mejor experiencia visual
     }
     
     return () => clearInterval(interval);
@@ -70,7 +88,7 @@ const SpeakersCarousel = () => {
     setTimeout(() => setAutoplay(true), 8000);
   };
 
-  // Funciones de navegación mejoradas
+  // Funciones de navegación mejoradas - transición más rápida
   const moveToNextSlide = () => {
     if (isAnimating) return;
     
@@ -81,7 +99,7 @@ const SpeakersCarousel = () => {
       return nextIndex >= totalSlides - slidesToShow + 1 ? 0 : nextIndex;
     });
     
-    setTimeout(() => setIsAnimating(false), 500);
+    setTimeout(() => setIsAnimating(false), 300);
   };
 
   const moveToPrevSlide = () => {
@@ -94,7 +112,7 @@ const SpeakersCarousel = () => {
       return nextIndex < 0 ? totalSlides - slidesToShow : nextIndex;
     });
     
-    setTimeout(() => setIsAnimating(false), 500);
+    setTimeout(() => setIsAnimating(false), 300);
   };
 
   const goToSlide = (index) => {
@@ -103,7 +121,7 @@ const SpeakersCarousel = () => {
     pauseAutoplay();
     setIsAnimating(true);
     setActiveIndex(index);
-    setTimeout(() => setIsAnimating(false), 500);
+    setTimeout(() => setIsAnimating(false), 300);
   };
 
   // Gestión mejorada de eventos táctiles
@@ -144,7 +162,8 @@ const SpeakersCarousel = () => {
         className="speakers-track" 
         style={{ 
           transform: `translateX(-${activeIndex * (100 / slidesToShow)}%)`,
-          transition: isAnimating ? 'transform 0.5s ease-in-out' : 'none'
+          transition: isAnimating ? 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)' : 'none',
+          willChange: 'transform'
         }}
       >
         {speakerData.map((speaker) => (
@@ -165,6 +184,8 @@ const SpeakersCarousel = () => {
                   src={speakerImages[speaker.image]} 
                   alt={speaker.name}
                   loading="eager"
+                  decoding="async"
+                  fetchpriority="high"
                 />
               </div>
             </a>

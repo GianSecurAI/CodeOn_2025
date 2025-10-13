@@ -82,8 +82,12 @@
 /* Track que contiene todas las tarjetas */
 .speakers-track {
   display: flex;
-  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 -15px; /* Compensar el gap entre tarjetas */
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
 /* Tarjeta de cada speaker - Diseño simple dividido */
@@ -127,6 +131,7 @@
   position: relative;
   transition: all 0.3s ease;
   display: block;
+  will-change: transform;
 }
 
 .speaker-image img {
@@ -137,6 +142,9 @@
   transition: all 0.3s ease;
   filter: brightness(1);
   display: block;
+  will-change: transform, filter;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 /* Efecto hover en la imagen */
