@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "name": "Gianmarco G. Menacho",
+    "role": "AI Student in NTTData and Community Lead",
+    "image": "/src/assets/images/speakers/1.jpeg",
+    "linkedin": "https://www.linkedin.com/in/gianmarco-guerrero-menacho/"
+  },
+  {
+    "id": 2,
+    "name": "Gianpaul Custodio",
+    "role": "Consultor en Ciberseguridad y Seguridad de la Información",
+    "image": "/src/assets/images/speakers/2.jpg",
+    "linkedin": "https://www.linkedin.com/in/gianpaul-custodio-chavarria/"
+  },
+  {
+    "id": 3,
+    "name": "Nicolás Lecaros",
+    "role": "Google Developer Expert in Google Cloud in Chile & Content Creator",
+    "image": "/src/assets/images/speakers/3.jpg",
+    "linkedin": "https://www.linkedin.com/in/nicolaslecaros/"
+  },
+  {
+    "id": 4,
+    "name": "Jhon Miranda",
+    "role": "Solutions Architect in Lexmark & Founder Circulapp",
+    "image": "/src/assets/images/speakers/4.jpg",
+    "linkedin": "https://www.linkedin.com/in/jhonpmirandah/"
+  },
+  {
+    "id": 5,
+    "name": "Gerardo Vilcamiza",
+    "role": "GenAI Scientist in NTTData & Mechatronics Engineer",
+    "image": "/src/assets/images/speakers/5.png",
+    "linkedin": "https://www.linkedin.com/in/gerardo-vilcamiza/"
+  },
+  {
+    "id": 6,
+    "name": "Oscar Castillo",
+    "role": "Consultor de AGI en MIH Automation",
+    "image": "/src/assets/images/speakers/6.png",
+    "linkedin": "https://www.linkedin.com/in/oscarcastillon/"
+  },
+  {
+    "id": 7,
+    "name": "Homer López",
+    "role": "Software Engineer, Frontend Developer & Content Creator",
+    "image": "/src/assets/images/speakers/7.png",
+    "linkedin": "https://www.linkedin.com/in/homer-lopez/"
+  },
+  {
+    "id": 8,
+    "name": "Alfredo Amez",
+    "role": "Data Tech influencer Growht Analyst",
+    "image": "/src/assets/images/speakers/8.png",
+    "linkedin": "https://www.linkedin.com/in/afredoamez/"
+  },
+  {
+    "id": 9,
+    "name": "Damian Siré",
+    "role": "Google Developer Expert in Angular in Uruguay & Content Creator",
+    "image": "/src/assets/images/speakers/9.jpg",
+    "linkedin": "https://www.linkedin.com/in/damiansire/"
+  },
+  {
+    "id": 10,
+    "name": "Jimy Dolores",
+    "role": "Google Developer Expert in Angular in Perú & Software Architect Nisum",
+    "image": "/src/assets/images/speakers/10.jpg",
+    "linkedin": "https://www.linkedin.com/in/jimyhuachodolores/"
+  },
+  {
+    "id": 11,
+    "name": "Renzo Roca",
+    "role": "Data Steward Senior in BCP",
+    "image": "/src/assets/images/speakers/11.jpg",
+    "linkedin": "https://www.linkedin.com/in/rocarenzo/"
+  },
+  {
+    "id": 12,
+    "name": "Yera Flores",
+    "role": "Industrial Engineer MBA, Docente & Data Analytics",
+    "image": "/src/assets/images/speakers/12.png",
+    "linkedin": "https://www.linkedin.com/in/geraflores-tech-ai/"
+  },
+  {
+    "id": 13,
+    "name": "Angela Camacho",
+    "role": "Software Engineer & Full Stack Developer",
+    "image": "/src/assets/images/speakers/13.jpg",
+    "linkedin": "https://www.linkedin.com/in/angela-irka-enciso-camacho-6394281b6/"
+  },
+  {
+    "id": 14,
+    "name": "Gian Sandoval",
+    "role": "Founder & CEO  FlupiOne Software  and Senior Flutter Developer",
+    "image": "/src/assets/images/speakers/14.png",
+    "linkedin": "https://www.linkedin.com/in/giansandoval/"
+  },
+  {
+    "id": 15,
+    "name": "José Guerra",
+    "role": "Customer Engineer Data/AI at Xertica and GDG Open Member",
+    "image": "/src/assets/images/speakers/15.png",
+    "linkedin": "https://www.linkedin.com/in/jose-carlos-guerra-martinez/"
+  },
+  {
+    "id": 16,
+    "name": "Jaime Fernández",
+    "role": "Business Specialist - Squad IA conversacional en Pacifico Seguros",
+    "image": "/src/assets/images/speakers/16.jpg",
+    "linkedin": "https://www.linkedin.com/in/jaime-fern%C3%A1ndez-chavez/"
+  },
+  {
+    "id": 17,
+    "name": "Sara Castillo",
+    "role": "CoE Lead de Diseño y Experiencia Digital en UTP",
+    "image": "/src/assets/images/speakers/17.png",
+    "linkedin": "https://www.linkedin.com/in/saracastillojuarez/"
+  },
+  {
+    "id": 18,
+    "name": "Angie Fiorella",
+    "role": "Informatic Engineer & Ambassador in Peruvians in STEM",
+    "image": "/src/assets/images/speakers/18.png",
+    "linkedin": "https://www.linkedin.com/in/angiefiorellasuazo/"
+  },
+  {
+    "id": 19,
+    "name": "Jose Flores Chamba",
+    "role": "Front-End Developer and GDG Open Member",
+    "image": "/src/assets/images/speakers/19.png",
+    "linkedin": "https://www.linkedin.com/in/jfloresxc/"
+  },
+  {
+    "id": 20,
+    "name": "Lesly Samaritano",
+    "role": "Flutter Developer & Women Techmaker Ambassador",
+    "image": "/src/assets/images/speakers/20.png",
+    "linkedin": "https://www.linkedin.com/in/leslysamaritano/"
+  },
+  {
+    "id": 21,
+    "name": "Javier Blanco",
+    "role": "Cloud DevOps Engineer & Instructor AWS re/Start",
+    "image": "/src/assets/images/speakers/21.png",
+    "linkedin": "https://www.linkedin.com/in/javier-esmith-blanco-chuquizuta/"
+  },
+  {
+    "id": 22,
+    "name": "David Contreras",
+    "role": "GitHub Campus Expert & Software Engineering",
+    "image": "/src/assets/images/speakers/22.jpg",
+    "linkedin": "https://www.linkedin.com/in/davidcontreraspalacios/"
+  },
+  {
+    "id": 23,
+    "name": "Pedro Rau De la Cruz",
+    "role": "Senior Android Mobile Developer in Globant",
+    "image": "/src/assets/images/speakers/23.png",
+    "linkedin": "https://www.linkedin.com/in/praudlacruz/"
+  },
+  {
+    "id": 24,
+    "name": "Brayan Ccarita",
+    "role": "IBM Z Student Ambassador and Software Engineering",
+    "image": "/src/assets/images/speakers/24.png",
+    "linkedin": "https://www.linkedin.com/in/natzull/"
+  },
+  {
+    "id": 25,
+    "name": "Cristians Bregante",
+    "role": "GDG organizer at GDG open y Sr front-end at Prosegur",
+    "image": "/src/assets/images/speakers/25.jpg",
+    "linkedin": "https://www.linkedin.com/in/cbregantejs/"
+  },
+  {
+    "id": 26,
+    "name": "Valentina Chambilla",
+    "role": "Microsoft Learn Student Ambassor Gold & Fullstack Developer",
+    "image": "/src/assets/images/speakers/26.jpg",
+    "linkedin": "https://www.linkedin.com/in/valentina-milagros-chambilla-perca/"
+  },
+  {
+    "id": 27,
+    "name": "Luis Eduardo",
+    "role": "Senior Frontend Developer en InDigitalXP",
+    "image": "/src/assets/images/speakers/27.jpg",
+    "linkedin": "https://www.linkedin.com/in/luiseduardoperezpacherrez/"
+  },
+  {
+    "id": 28,
+    "name": "Felix Castro",
+    "role": "Frontend Lead en IDBi",
+    "image": "/src/assets/images/speakers/28.jpg",
+    "linkedin": "https://www.linkedin.com/in/felix-castro-cubas-633037192/"
+  },
+  {
+    "id": 29,
+    "name": "Manuel Travezaño",
+    "role": "Analista táctico de Ciberinteligencia en la Policia Nacional del Perú",
+    "image": "/src/assets/images/speakers/29.jpg",
+    "linkedin": "https://www.linkedin.com/in/manuelbot59/"
+  }
+]

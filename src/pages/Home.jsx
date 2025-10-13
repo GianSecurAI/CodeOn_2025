@@ -210,7 +210,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="call-for-speakers">
+      {/*<section className="call-for-speakers">
         <div className="call-for-speakers-container">
           <div className="speakers-content">
             <div className="speakers-card">
@@ -264,17 +264,17 @@ const Home = () => {
             <div className="image-overlay"></div>
           </div>
         </div>
-      </section>
+      </section>*/}
       
       {/* Sección de Speakers */}
-      {/*<section className="speakers-section">
+      <section className="speakers-section">
         <div className="speakers-container">
           <SpeakersCarousel />
         </div>
-      </section>*/}
-      <section className="sponsors-section">
+      </section>
+      {/*<section className="sponsors-section">
         <div className="sponsors-container">
-          {/*
+          
           <h2 className="sponsors-title">Nuestros Sponsors</h2>
           <div className="sponsor-categories">
             <div className="sponsor-category-label">
@@ -347,7 +347,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          */}
+          
           <div className="be-sponsor-card">
             <h3 className="be-sponsor-title">¿Quieres ser patrocinador?</h3>
             <p className="be-sponsor-text">
@@ -359,7 +359,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section>*/}
       {/* Fin de sección de patrocinadores */}
 
       <section className="venue">

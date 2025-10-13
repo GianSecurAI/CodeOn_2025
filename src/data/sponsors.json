@@ -1,0 +1,50 @@
+{
+  "platinum": [
+    {
+      "id": 1,
+      "name": "Sponsor Platinum 1",
+      "logo": "/src/assets/images/sponsors/platinum1.png",
+      "website": "https://example.com",
+      "description": "Descripción del sponsor"
+    },
+    {
+      "id": 2,
+      "name": "Sponsor Platinum 2",
+      "logo": "/src/assets/images/sponsors/platinum2.png",
+      "website": "https://example.com",
+      "description": "Descripción del sponsor"
+    }
+  ],
+  "golden": [
+    {
+      "id": 1,
+      "name": "Sponsor Golden 1",
+      "logo": "/src/assets/images/sponsors/golden1.png",
+      "website": "https://example.com",
+      "description": "Descripción del sponsor"
+    },
+    {
+      "id": 2,
+      "name": "Sponsor Golden 2",
+      "logo": "/src/assets/images/sponsors/golden2.png",
+      "website": "https://example.com",
+      "description": "Descripción del sponsor"
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "name": "Comunidad Aliada 1",
+      "logo": "/src/assets/images/sponsors/partner1.png",
+      "website": "https://example.com",
+      "description": "Descripción de la comunidad"
+    },
+    {
+      "id": 2,
+      "name": "Comunidad Aliada 2",
+      "logo": "/src/assets/images/sponsors/partner2.png",
+      "website": "https://example.com",
+      "description": "Descripción de la comunidad"
+    }
+  ]
+}
