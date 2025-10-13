@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../styles/speakers.css';
 import speakerData from '../data/speakers.json';
+import { speakerImages } from '../assets/images/speakers/index.js';
 
 const SpeakersCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -30,6 +31,14 @@ const SpeakersCarousel = () => {
   };
 
   const [slidesToShow, setSlidesToShow] = useState(getVisibleSlidesCount());
+
+  // Precargar todas las imágenes al montar el componente
+  useEffect(() => {
+    speakerData.forEach((speaker) => {
+      const img = new Image();
+      img.src = speakerImages[speaker.image];
+    });
+  }, []);
 
   // Actualizar slidesToShow cuando cambia el tamaño de la ventana
   useEffect(() => {
@@ -152,7 +161,11 @@ const SpeakersCarousel = () => {
               aria-label={`Ver perfil de LinkedIn de ${speaker.name}`}
             >
               <div className="speaker-image">
-                <img src={speaker.image} alt={speaker.name} loading="lazy" />
+                <img 
+                  src={speakerImages[speaker.image]} 
+                  alt={speaker.name}
+                  loading="eager"
+                />
               </div>
             </a>
             
