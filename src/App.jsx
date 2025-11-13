@@ -5,8 +5,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import CodeOfConduct from './pages/CodeOfConduct'
-import NotFound from './pages/NotFound'
 import FAQs from './pages/FAQs'
+import Agenda from './pages/Agenda'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/codigo-de-conducta" element={<CodeOfConduct />} />
             <Route path="/faqs" element={<FAQs />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/agenda" element={<Agenda />} />
           </Routes>
         </main>
         <Footer />
