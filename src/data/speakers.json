@@ -15,129 +15,129 @@
   },
   {
     "id": 3,
-    "name": "Nicolás Lecaros",
-    "role": "Google Developer Expert in Google Cloud in Chile & Content Creator",
-    "image": "3.jpg",
-    "linkedin": "https://www.linkedin.com/in/nicolaslecaros/"
+    "name": "Yancel Salinas",
+    "role": "Lead Google Developer Group Open",
+    "image": "3.png",
+    "linkedin": "https://www.linkedin.com/in/sagoyanfisic/"
   },
   {
     "id": 4,
-    "name": "Jhon Miranda",
-    "role": "Solutions Architect in Lexmark & Founder Circulapp",
-    "image": "4.jpg",
-    "linkedin": "https://www.linkedin.com/in/jhonpmirandah/"
-  },
-  {
-    "id": 5,
     "name": "Gerardo Vilcamiza",
     "role": "GenAI Scientist in NTTData & Mechatronics Engineer",
-    "image": "5.png",
+    "image": "4.png",
     "linkedin": "https://www.linkedin.com/in/gerardo-vilcamiza/"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Oscar Castillo",
     "role": "Consultor de AGI en MIH Automation",
-    "image": "6.png",
+    "image": "5.png",
     "linkedin": "https://www.linkedin.com/in/oscarcastillon/"
   },
   {
-    "id": 7,
-    "name": "Homer López",
-    "role": "Software Engineer, Frontend Developer & Content Creator",
-    "image": "7.png",
-    "linkedin": "https://www.linkedin.com/in/homer-lopez/"
-  },
-  {
-    "id": 8,
-    "name": "Alfredo Amez",
-    "role": "Data Tech influencer Growht Analyst",
-    "image": "8.png",
-    "linkedin": "https://www.linkedin.com/in/afredoamez/"
-  },
-  {
-    "id": 9,
-    "name": "Damian Siré",
-    "role": "Google Developer Expert in Angular in Uruguay & Content Creator",
-    "image": "9.jpg",
-    "linkedin": "https://www.linkedin.com/in/damiansire/"
-  },
-  {
-    "id": 10,
-    "name": "Jimy Dolores",
-    "role": "Google Developer Expert in Angular in Perú & Software Architect Nisum",
-    "image": "10.jpg",
-    "linkedin": "https://www.linkedin.com/in/jimyhuachodolores/"
-  },
-  {
-    "id": 11,
-    "name": "Renzo Roca",
-    "role": "Data Steward Senior in BCP",
-    "image": "11.jpg",
-    "linkedin": "https://www.linkedin.com/in/rocarenzo/"
-  },
-  {
-    "id": 12,
+    "id": 6,
     "name": "Yera Flores",
     "role": "Industrial Engineer MBA, Docente & Data Analytics",
-    "image": "12.png",
+    "image": "6.png",
     "linkedin": "https://www.linkedin.com/in/geraflores-tech-ai/"
   },
   {
-    "id": 13,
+    "id": 7,
+    "name": "Anita Quevedo",
+    "role": "Arquitecta de data e AI at Google",
+    "image": "7.jpeg",
+    "linkedin": "https://www.linkedin.com/in/aquevedos91/"
+  },
+  {
+    "id": 8,
     "name": "Angela Camacho",
     "role": "Software Engineer & Full Stack Developer",
-    "image": "13.jpg",
+    "image": "8.jpg",
     "linkedin": "https://www.linkedin.com/in/angela-irka-enciso-camacho-6394281b6/"
   },
   {
-    "id": 14,
-    "name": "Gian Sandoval",
-    "role": "Founder & CEO  FlupiOne Software  and Senior Flutter Developer",
-    "image": "14.png",
-    "linkedin": "https://www.linkedin.com/in/giansandoval/"
+    "id": 9,
+    "name": "Alfredo Amez",
+    "role": "Data Tech influencer Growht Analyst",
+    "image": "9.png",
+    "linkedin": "https://www.linkedin.com/in/afredoamez/"
   },
   {
-    "id": 15,
+    "id": 10,
+    "name": "Lesly Samaritano",
+    "role": "Flutter Developer & Women Techmaker Ambassador",
+    "image": "10.png",
+    "linkedin": "https://www.linkedin.com/in/leslysamaritano/"
+  },
+  {
+    "id": 11,
+    "name": "Johan Espino",
+    "role": "Mobile Tech Lead iOS Developer in Financiera Oh!",
+    "image": "11.jpeg",
+    "linkedin": "https://www.linkedin.com/in/johanespino9/"
+  },
+  {
+    "id": 12,
+    "name": "Katherine Chauca",
+    "role": "Community Builder and Women Techmaker Ambassador",
+    "image": "12.jpeg",
+    "linkedin": "https://www.linkedin.com/in/katherinechauca/"
+  },
+  {
+    "id": 13,
     "name": "José Guerra",
     "role": "Customer Engineer Data/AI at Xertica and GDG Open Member",
-    "image": "15.png",
+    "image": "13.png",
     "linkedin": "https://www.linkedin.com/in/jose-carlos-guerra-martinez/"
   },
   {
-    "id": 16,
-    "name": "Jaime Fernández",
-    "role": "Business Specialist - Squad IA conversacional en Pacifico Seguros",
-    "image": "16.jpg",
-    "linkedin": "https://www.linkedin.com/in/jaime-fern%C3%A1ndez-chavez/"
-  },
-  {
-    "id": 17,
-    "name": "Sara Castillo",
-    "role": "CoE Lead de Diseño y Experiencia Digital en UTP",
-    "image": "17.png",
-    "linkedin": "https://www.linkedin.com/in/saracastillojuarez/"
-  },
-  {
-    "id": 18,
-    "name": "Angie Fiorella",
-    "role": "Informatic Engineer & Ambassador in Peruvians in STEM",
-    "image": "18.png",
-    "linkedin": "https://www.linkedin.com/in/angiefiorellasuazo/"
-  },
-  {
-    "id": 19,
+    "id": 14,
     "name": "Jose Flores Chamba",
     "role": "Front-End Developer and GDG Open Member",
-    "image": "19.png",
+    "image": "14.png",
     "linkedin": "https://www.linkedin.com/in/jfloresxc/"
   },
   {
+    "id": 15,
+    "name": "Jaime Fernández",
+    "role": "Business Specialist - Squad IA conversacional en Pacifico Seguros",
+    "image": "15.jpg",
+    "linkedin": "https://www.linkedin.com/in/jaime-fern%C3%A1ndez-chavez/"
+  },
+  {
+    "id": 16,
+    "name": "",
+    "role": "",
+    "image": "",
+    "linkedin": ""
+  },
+  {
+    "id": 17,
+    "name": "Pedro Rau De la Cruz",
+    "role": "Senior Android Mobile Developer in Globant",
+    "image": "17.png",
+    "linkedin": "https://www.linkedin.com/in/praudlacruz/"
+  },
+  {
+    "id": 18,
+    "name": "Brayan Ccarita",
+    "role": "IBM Z Student Ambassador and Software Engineering",
+    "image": "18.png",
+    "linkedin": "https://www.linkedin.com/in/natzull/"
+  },
+  {
+    "id": 19,
+    "name": "Alexis Tamayo",
+    "role": "CTO & Founder at Alcale Solutions",
+    "image": "19.jpeg",
+    "linkedin": "https://www.linkedin.com/in/jemsun-alexis-tamayo-tello-78749075/"
+  },
+  {
     "id": 20,
-    "name": "Lesly Samaritano",
-    "role": "Flutter Developer & Women Techmaker Ambassador",
-    "image": "20.png",
-    "linkedin": "https://www.linkedin.com/in/leslysamaritano/"
+    "name": "Cristians Bregante",
+    "role": "GDG organizer at GDG open y Sr front-end at Prosegur",
+    "image": "20.jpg",
+    "linkedin": "https://www.linkedin.com/in/cbregantejs/"
   },
   {
     "id": 21,
@@ -148,58 +148,9 @@
   },
   {
     "id": 22,
-    "name": "David Contreras",
-    "role": "GitHub Campus Expert & Software Engineering",
-    "image": "22.jpg",
-    "linkedin": "https://www.linkedin.com/in/davidcontreraspalacios/"
-  },
-  {
-    "id": 23,
-    "name": "Pedro Rau De la Cruz",
-    "role": "Senior Android Mobile Developer in Globant",
-    "image": "23.png",
-    "linkedin": "https://www.linkedin.com/in/praudlacruz/"
-  },
-  {
-    "id": 24,
-    "name": "Brayan Ccarita",
-    "role": "IBM Z Student Ambassador and Software Engineering",
-    "image": "24.png",
-    "linkedin": "https://www.linkedin.com/in/natzull/"
-  },
-  {
-    "id": 25,
-    "name": "Cristians Bregante",
-    "role": "GDG organizer at GDG open y Sr front-end at Prosegur",
-    "image": "25.jpg",
-    "linkedin": "https://www.linkedin.com/in/cbregantejs/"
-  },
-  {
-    "id": 26,
-    "name": "Valentina Chambilla",
-    "role": "Microsoft Learn Student Ambassor Gold & Fullstack Developer",
-    "image": "26.jpg",
-    "linkedin": "https://www.linkedin.com/in/valentina-milagros-chambilla-perca/"
-  },
-  {
-    "id": 27,
-    "name": "Luis Eduardo",
-    "role": "Senior Frontend Developer en InDigitalXP",
-    "image": "27.jpg",
-    "linkedin": "https://www.linkedin.com/in/luiseduardoperezpacherrez/"
-  },
-  {
-    "id": 28,
-    "name": "Felix Castro",
-    "role": "Frontend Lead en IDBi",
-    "image": "28.jpg",
-    "linkedin": "https://www.linkedin.com/in/felix-castro-cubas-633037192/"
-  },
-  {
-    "id": 29,
-    "name": "Manuel Travezaño",
-    "role": "Analista táctico de Ciberinteligencia en la Policia Nacional del Perú",
-    "image": "29.jpg",
-    "linkedin": "https://www.linkedin.com/in/manuelbot59/"
+    "name": "Jaime Medina",
+    "role": "CEO en MitoCode Network",
+    "image": "",
+    "linkedin": "https://www.linkedin.com/in/jaimemd21/"
   }
 ]
