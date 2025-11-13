@@ -44,5 +44,5 @@ export const speakerImages = {
   '19.jpeg': speaker19,
   '20.jpg': speaker20,
   '21.png': speaker21,
-  '22.jpeg': speaker22,
+  '22.jpg': speaker22,
 };
