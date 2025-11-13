@@ -19,7 +19,7 @@ import speaker18 from './18.png';
 import speaker19 from './19.jpeg';
 import speaker20 from './20.jpg';
 import speaker21 from './21.png';
-import speaker22 from './22.jpeg';
+import speaker22 from './22.jpg';
 
 // Objeto mapeando nombres de archivo a sus imports
 export const speakerImages = {
