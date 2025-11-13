@@ -164,25 +164,6 @@ const Agenda = () => {
                     {event.type === 'panel' ? (
                       <div className={`event-card panel-card`}>
                         <div className="event-time-left">{event.schedule}</div>
-                        <div className="panel-images">
-                          {event.panelists.map((panelist, idx) => (
-                            panelist.image && speakerImages[panelist.image] && (
-                              <a
-                                key={idx}
-                                href={panelist.linkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="speaker-image-wrapper clickable"
-                              >
-                                <img 
-                                  src={speakerImages[panelist.image]} 
-                                  alt={panelist.name}
-                                  loading="lazy"
-                                />
-                              </a>
-                            )
-                          ))}
-                        </div>
                         <div className="event-info">
                           <div className="event-header">
                             <h3 className="event-title">{event.title}</h3>
@@ -190,6 +171,20 @@ const Agenda = () => {
                           <div className="panel-speakers">
                             {event.panelists.map((panelist, idx) => (
                               <div key={idx} className="panelist-info">
+                                {panelist.image && speakerImages[panelist.image] && (
+                                  <a
+                                    href={panelist.linkedin}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="speaker-image-wrapper clickable"
+                                  >
+                                    <img 
+                                      src={speakerImages[panelist.image]} 
+                                      alt={panelist.name}
+                                      loading="lazy"
+                                    />
+                                  </a>
+                                )}
                                 <span className="event-speaker">{panelist.name}</span>
                                 <p className="event-role">{panelist.role}</p>
                               </div>
@@ -205,21 +200,22 @@ const Agenda = () => {
                         className={`event-card talk-card clickable-card`}
                       >
                         <div className="event-time-left">{event.schedule}</div>
-                        {event.image && speakerImages[event.image] && (
-                          <div className="speaker-image-wrapper">
-                            <img 
-                              src={speakerImages[event.image]} 
-                              alt={event.name}
-                              loading="lazy"
-                            />
-                          </div>
-                        )}
                         <div className="event-info">
                           <div className="event-header">
                             <h3 className="event-title">{event.title}</h3>
-                            <span className="event-speaker">{event.name}</span>
                           </div>
-                          <p className="event-role">{event.role}</p>
+                        </div>
+                        <div className="talk-speaker-wrapper">
+                          {event.image && speakerImages[event.image] && (
+                            <div className="speaker-image-wrapper">
+                              <img 
+                                src={speakerImages[event.image]} 
+                                alt={event.name}
+                                loading="lazy"
+                              />
+                            </div>
+                          )}
+                          <span className="event-speaker">{event.name}</span>
                         </div>
                       </a>
                     ) : (
