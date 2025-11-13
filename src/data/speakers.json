@@ -3,6 +3,9 @@
     "id": 1,
     "name": "Gianmarco G. Menacho",
     "role": "AI Student in NTTData and Community Lead",
+    "title": "Crea, organiza y lidera: el potencial de Notion en tus manos",
+    "schedule": "9:45 AM - 10:25 AM",
+    "space": "Auditorio",
     "image": "1.jpeg",
     "linkedin": "https://www.linkedin.com/in/gianmarco-guerrero-menacho/"
   },
@@ -10,6 +13,9 @@
     "id": 2,
     "name": "Gianpaul Custodio",
     "role": "Consultor en Ciberseguridad y Seguridad de la Información",
+    "title": "Hackeando tu información con 1 link",
+    "schedule": "10:30 AM - 11:10 AM",
+    "space": "Auditorio",
     "image": "2.jpg",
     "linkedin": "https://www.linkedin.com/in/gianpaul-custodio-chavarria/"
   },
@@ -17,6 +23,9 @@
     "id": 3,
     "name": "Yancel Salinas",
     "role": "Lead Google Developer Group Open",
+    "title": "Panel de IA",
+    "schedule": "11:15 AM - 12:00 PM",
+    "space": "Auditorio",
     "image": "3.png",
     "linkedin": "https://www.linkedin.com/in/sagoyanfisic/"
   },
@@ -24,6 +33,9 @@
     "id": 4,
     "name": "Gerardo Vilcamiza",
     "role": "GenAI Scientist in NTTData & Mechatronics Engineer",
+    "title": "Panel de IA",
+    "schedule": "11:15 AM - 12:00 PM",
+    "space": "Auditorio",
     "image": "4.png",
     "linkedin": "https://www.linkedin.com/in/gerardo-vilcamiza/"
   },
@@ -31,6 +43,9 @@
     "id": 5,
     "name": "Oscar Castillo",
     "role": "Consultor de AGI en MIH Automation",
+    "title": "Panel de IA",
+    "schedule": "11:15 AM - 12:00 PM",
+    "space": "Auditorio",
     "image": "5.png",
     "linkedin": "https://www.linkedin.com/in/oscarcastillon/"
   },
@@ -38,6 +53,9 @@
     "id": 6,
     "name": "Yera Flores",
     "role": "Industrial Engineer MBA, Docente & Data Analytics",
+    "title": "Aplicaciones de agentes IA en negocios",
+    "schedule": "1:35 PM - 2:15 PM",
+    "space": "Auditorio",
     "image": "6.png",
     "linkedin": "https://www.linkedin.com/in/geraflores-tech-ai/"
   },
@@ -45,6 +63,9 @@
     "id": 7,
     "name": "Anita Quevedo",
     "role": "Arquitecta de data e AI at Google",
+    "title": "Chatea con tus datos haciendo uso de Agentes con Google Cloud",
+    "schedule": "2:20 PM - 3:00 PM",
+    "space": "Auditorio",
     "image": "7.jpeg",
     "linkedin": "https://www.linkedin.com/in/aquevedos91/"
   },
@@ -52,6 +73,9 @@
     "id": 8,
     "name": "Angela Camacho",
     "role": "Software Engineer & Full Stack Developer",
+    "title": "Integrando AWS con Flutter: Aplicaciones Inteligentes desde la Nube",
+    "schedule": "3:05 PM - 3:45 PM",
+    "space": "Auditorio",
     "image": "8.jpg",
     "linkedin": "https://www.linkedin.com/in/angela-irka-enciso-camacho-6394281b6/"
   },
@@ -59,6 +83,9 @@
     "id": 9,
     "name": "Alfredo Amez",
     "role": "Data Tech influencer Growht Analyst",
+    "title": "Formación desfasada, talento desaprovechado",
+    "schedule": "3:50 PM - 4:30 PM",
+    "space": "Auditorio",
     "image": "9.png",
     "linkedin": "https://www.linkedin.com/in/afredoamez/"
   },
@@ -66,6 +93,9 @@
     "id": 10,
     "name": "Lesly Samaritano",
     "role": "Flutter Developer & Women Techmaker Ambassador",
+    "title": "Creando mi oportunidad laboral como desarrolladora de apps de manera autodidacta",
+    "schedule": "4:35 PM - 5:15 PM",
+    "space": "Auditorio",
     "image": "10.png",
     "linkedin": "https://www.linkedin.com/in/leslysamaritano/"
   },
@@ -73,6 +103,9 @@
     "id": 11,
     "name": "Johan Espino",
     "role": "Mobile Tech Lead iOS Developer in Financiera Oh!",
+    "title": "Flutter, React Native o Nativo: ¿Cuál elijo para mi proyecto?",
+    "schedule": "10:30 AM - 11:10 AM",
+    "space": "Aula 401",
     "image": "11.jpeg",
     "linkedin": "https://www.linkedin.com/in/johanespino9/"
   },
@@ -80,6 +113,9 @@
     "id": 12,
     "name": "Katherine Chauca",
     "role": "Community Builder and Women Techmaker Ambassador",
+    "title": "",
+    "schedule": "11:15 AM - 12:00 PM",
+    "space": "Aula 401",
     "image": "12.jpeg",
     "linkedin": "https://www.linkedin.com/in/katherinechauca/"
   },
@@ -87,6 +123,9 @@
     "id": 13,
     "name": "José Guerra",
     "role": "Customer Engineer Data/AI at Xertica and GDG Open Member",
+    "title": "Fundamentos de Kubernetes con Google Kubernetes Engine",
+    "schedule": "2:20 PM - 3:00 PM",
+    "space": "Aula 401",
     "image": "13.png",
     "linkedin": "https://www.linkedin.com/in/jose-carlos-guerra-martinez/"
   },
@@ -94,6 +133,9 @@
     "id": 14,
     "name": "Jose Flores Chamba",
     "role": "Front-End Developer and GDG Open Member",
+    "title": "Jules: El Copiloto de IA de Google que transforma tu flujo de trabajo en GitHub",
+    "schedule": "3:05 PM - 3:45 PM",
+    "space": "Aula 401",
     "image": "14.png",
     "linkedin": "https://www.linkedin.com/in/jfloresxc/"
   },
@@ -101,6 +143,9 @@
     "id": 15,
     "name": "Jaime Fernández",
     "role": "Business Specialist - Squad IA conversacional en Pacifico Seguros",
+    "title": "¿Cómo construir productos digitales con IA desde cero?",
+    "schedule": "3:50 PM - 4:30 PM",
+    "space": "Aula 401",
     "image": "15.jpg",
     "linkedin": "https://www.linkedin.com/in/jaime-fern%C3%A1ndez-chavez/"
   },
@@ -108,6 +153,9 @@
     "id": 16,
     "name": "",
     "role": "",
+    "title": "",
+    "schedule": "4:35 PM - 5:15 PM",
+    "space": "Aula 401",
     "image": "",
     "linkedin": ""
   },
@@ -115,6 +163,9 @@
     "id": 17,
     "name": "Pedro Rau De la Cruz",
     "role": "Senior Android Mobile Developer in Globant",
+    "title": "Del CV a la oferta: Guía práctica para conseguir tu próxima oportunidad en tecnología",
+    "schedule": "10:30 AM - 11:10 AM",
+    "space": "Aula 414",
     "image": "17.png",
     "linkedin": "https://www.linkedin.com/in/praudlacruz/"
   },
@@ -122,6 +173,9 @@
     "id": 18,
     "name": "Brayan Ccarita",
     "role": "IBM Z Student Ambassador and Software Engineering",
+    "title": "Mi primera cita con... n8n: Automatiza tus procesos a la velocidad de la luz",
+    "schedule": "11:15 AM - 12:00 PM",
+    "space": "Aula 414",
     "image": "18.png",
     "linkedin": "https://www.linkedin.com/in/natzull/"
   },
@@ -129,6 +183,9 @@
     "id": 19,
     "name": "Alexis Tamayo",
     "role": "CTO & Founder at Alcale Solutions",
+    "title": "De Monolito a Microservicios en AWS",
+    "schedule": "2:00  PM - 2:40 PM",
+    "space": "Aula 414",
     "image": "19.jpeg",
     "linkedin": "https://www.linkedin.com/in/jemsun-alexis-tamayo-tello-78749075/"
   },
@@ -136,6 +193,9 @@
     "id": 20,
     "name": "Cristians Bregante",
     "role": "GDG organizer at GDG open y Sr front-end at Prosegur",
+    "title": "Google Stitch: Ohana significa el futuro",
+    "schedule": "2:45 PM - 3:45 PM",
+    "space": "Aula 414",
     "image": "20.jpg",
     "linkedin": "https://www.linkedin.com/in/cbregantejs/"
   },
@@ -143,6 +203,9 @@
     "id": 21,
     "name": "Javier Blanco",
     "role": "Cloud DevOps Engineer & Instructor AWS re/Start",
+    "title": "Sabio cloud y los 6 caminos de la certificación",
+    "schedule": "3:50 PM - 4:30 PM",
+    "space": "Aula 414",
     "image": "21.png",
     "linkedin": "https://www.linkedin.com/in/javier-esmith-blanco-chuquizuta/"
   },
@@ -150,6 +213,9 @@
     "id": 22,
     "name": "Jaime Medina",
     "role": "CEO en MitoCode Network",
+    "title": "IA Generativa en Java con Spring AI",
+    "schedule": "4:35 PM - 5:15 PM",
+    "space": "Aula 414",
     "image": "22.jpg",
     "linkedin": "https://www.linkedin.com/in/jaimemd21/"
   }
