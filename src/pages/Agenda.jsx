@@ -117,7 +117,7 @@ const Agenda = () => {
     <div className="agenda-page">
       <div className="agenda-container">
         <h1 className="agenda-title">Agenda CodeON 2025</h1>
-        <p className="agenda-subtitle">Sábado 23 de Noviembre</p>
+        <p className="agenda-subtitle">Sábado 15 de Noviembre</p>
 
         {/* Selector de espacio */}
         <div className="space-selector">
