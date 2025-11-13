@@ -227,7 +227,7 @@
 }
 
 .agenda-page .event-card.fixed-card .event-title {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 
 .agenda-page .event-card.break-card {
@@ -441,13 +441,13 @@
 }
 
 .agenda-page .coffee-break .event-title {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
   color: #4ade80;
   margin: 0;
 }
 
 .agenda-page .coffee-break .event-time-left {
-  background: rgba(74, 222, 128, 0.2);
+  background: transparent;
   color: #4ade80;
 }
 
