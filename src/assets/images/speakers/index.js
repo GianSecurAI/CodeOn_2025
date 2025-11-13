@@ -14,6 +14,7 @@ import speaker12 from './12.jpeg';
 import speaker13 from './13.png';
 import speaker14 from './14.png';
 import speaker15 from './15.jpg';
+import speaker16 from './16.jpg';
 import speaker17 from './17.png';
 import speaker18 from './18.png';
 import speaker19 from './19.jpeg';
@@ -38,7 +39,7 @@ export const speakerImages = {
   '13.png': speaker13,
   '14.png': speaker14,
   '15.jpg': speaker15,
-  '': '', // ID 16 vacío
+  '16.jpg': speaker16,
   '17.png': speaker17,
   '18.png': speaker18,
   '19.jpeg': speaker19,

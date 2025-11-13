@@ -116,7 +116,7 @@ const Agenda = () => {
   return (
     <div className="agenda-page">
       <div className="agenda-container">
-        <h1 className="agenda-title">Agenda CodeON 2025</h1>
+        <h1 className="agenda-title">Agenda CodeOn 2025</h1>
         <p className="agenda-subtitle">Sábado 15 de Noviembre</p>
 
         {/* Selector de espacio */}
